@@ -15,16 +15,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var trueButton: UIButton!
     @IBOutlet weak var falseButton: UIButton!
     
-    struct Question {
-        let text: String
-        let answer: String
-        
-        init(q: String, a: String) {
-            text = q
-            answer = a
-        }
-    }
-    
     let questions = [
         Question(q: "Four + two = six", a: "True"),
         Question(q: "Five - three > 1", a: "True"),
